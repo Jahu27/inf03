@@ -52,7 +52,14 @@ div#left, div#right{
     width: 100%;
     border-radius: 20px;
   }
-  table,th{
-    border: solid 0.5px;
-    border-color: dimgray;
+  table{
+    border: solid 1px dimgray;
+    border-collapse: collapse;
+  }
+  td,th{
+    border: 1px solid dimgray;
+    border-collapse: collapse;
+  }
+  th:hover,td:hover{
+    background-color: steelblue;
   }
