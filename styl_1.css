@@ -30,7 +30,7 @@ div#left, div#right{
   height: 400px;
   background-color: #B3C6D9;
   padding-top: 100px;
-  position: absolute;
+  position: fixed;
   top: 16.5%;
   }
   div#left{
@@ -40,7 +40,8 @@ div#left, div#right{
     right:0px ;
   }
   div#center{
-    position: absolute;
+    text-align: center;
+    position: fixed;
     left: 386px;
     top:  16.5%;
     height: 500px;
