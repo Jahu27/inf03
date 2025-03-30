@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div id="baner">
+        <h2>Efekty na obrazach</h2>
+    </div>
+    <div id="holder">
+        <div class="block">
+            <img  id="1"src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku"> </img><br>
+            <div>
+               
+                <input type="radio" name="bee" id="Blur">
+                <label for="Blur">Blur</label><br>
+                <input type="radio" name="bee" id="Sepia">
+                <label for="Sepia">Sepia</label><br>
+                <input type="radio" name="bee" id="Negatyw">
+                <label for="Negatyw">Negatyw</label>
+            </div>
+            <button onclick="transform1()"> Zastosuj</button>
+            
+        </div>
+       
+       
+        <div class="block">
+            <img src="pomarancza.jpg" alt="drzewo pomarańczy"> </img><br>
+            <button value="kol" onclick="transform2(this.value)">Kolorowy</button><button value="bw" onclick="transform2(this.value)">Czarno-biały</button>
+        </div>
+        <div class="block">
+            <img src="owoce.jpg" alt="Kosz pełen owoców”"> </img><br>
+            <input id="suw1"type="range" min="0" max="100" value="100"><br>
+            <button onclick="transform3()"> Zastosuj</button>
+        </div>
+        <div class="block">
+            <img src="zolw.jpg" alt="Żółw w wodzie”"> </img><br>
+            <input id="suw2" type="range" min="0" max="250"><br>
+            <button onclick="transform4()"> Zastosuj</button>
+        </div>
+
+    </div>
+    <div id="stopka">
+        <p><a href = "http://www.css.com/" target="_blank">Zobacz inne efekty obrazu</a></p>
+        <p>Strone wykonal: 00000000</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

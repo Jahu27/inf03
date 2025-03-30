@@ -1,0 +1,62 @@
+body{
+    font-family:  serif;
+    text-align: center;
+
+}
+#baner,#stopka{
+
+    background-color: indigo;
+    color:white;
+    font-style: italic;
+    padding: 2px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+}
+#baner{
+   
+    top: 0px;
+}
+#stopka{
+    bottom: 0px;
+}
+a{
+    color: white;
+}
+#holder{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.block{
+    margin-top: 60px;
+    width: 50%;
+    height: 470px;
+    
+
+
+}
+.block button{
+    margin-left: 3px;
+}
+
+img{
+    padding: 3px;
+    margin: 10px;
+    border: dotted 2px slateblue;
+}
+input[type="range"]{
+    width: 40%;
+}
+button{
+    background-color: slateblue;
+    color:white;
+    border: none;
+    padding: 10px;
+    padding: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+}
