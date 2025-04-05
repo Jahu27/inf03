@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div#body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    
+}
+#Baner{
+    position: relative;
+    left: 0px;
+    width: 100%;
+
+    top: 0px;
+}
+#Stopka{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    
+    bottom: 0px;
+
+}
+#Baner , #Stopka{
+    
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+#lmenu{
+    background-color: peru;
+    width: 80%;
+    height: 40px;
+    font-size: 120%;
+    padding-top: 20px;
+}
+#lbmain{
+width: 80%;
+height: 700px;
+font-size: 120%;
+overflow: scroll;
+}
+#pbmain{
+    background-color: peru;
+    color:white;
+    width: 20%;
+    height: 760px;
+    float: right;
+    position: relative;
+    bottom: 760px;
+}
+
+a{
+    color: #DDD;
+    padding-left: 90px;
+    font-size: 140%;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+img{
+    float: left;
+    margin: 40px;
+    height: 300px;
+}
